@@ -23,7 +23,7 @@ describe('UI Tests', () => {
         await page.goto('http://localhost:3000');
         await page.click('a[href="/about"]');
         const title = await page.title();
-        expect(title).toBe('About Uss');
+        expect(title).toBe('About Us');
     });
 
     // Add more UI tests as needed
