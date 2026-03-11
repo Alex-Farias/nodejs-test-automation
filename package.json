@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-test-automation",
+  "version": "1.0.0",
+  "description": "A sample project for basic test automation using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.0.0",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "automation",
+    "testing",
+    "nodejs"
+  ],
+  "author": "Alex-Farias",
+  "license": "MIT"
+}
